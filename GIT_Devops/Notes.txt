@@ -9,3 +9,7 @@ git commit -m "merge git push
 ### Delete a branch###
 git branch -d gitB to delete a local branch
 to delete a remote branch >> git branch <remote> -d gitB (this didnt work)
+### git rebase ###
+$ git checkout test
+$ git rebase master
+$ git log --graph --pretty=oneline
