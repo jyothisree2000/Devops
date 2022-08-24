@@ -1,3 +1,8 @@
 practicing vi commands and also git commands
 merging different files for now
+<<<<<<< HEAD
 merging edited file with out updating
+=======
+merging the file1 with gitC
+merging the files in master to merge with gitc
+>>>>>>> origin/gitC
