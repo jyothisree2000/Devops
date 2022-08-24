@@ -6,6 +6,7 @@ git push --set-upstream origin gitB
 # GIT MERGE####
 go to master (original branch) by git checkout master then do git merge gitB
 git commit -m "merge git push
+git merge tool
 ### Delete a branch###
 git branch -d gitB to delete a local branch
 to delete a remote branch >> git branch <remote> -d gitB (this didnt work)
