@@ -1,3 +1,4 @@
 practicing git commands
 merging the commands
 Changing the file2 with gitD
+synced the master the updated the changes
