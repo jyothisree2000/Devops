@@ -2,3 +2,4 @@ practicing git commands
 merging the commands
 Changing the file2 with gitD
 synced the master the updated the changes
+commands entered in master to merge with gitD
