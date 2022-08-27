@@ -17,3 +17,4 @@ git config pull.rebase false >>>helped with conflicts
 git pull origin master --rebas
 $ git rebase master
 $ git log --graph --pretty=oneline
+git reset --hard origin/pod20_dev
