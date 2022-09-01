@@ -9,3 +9,14 @@ https://javahowtos.com/guides/124-docker/414-solved-cannot-kill-docker-container
 docker rmi "image_name"
 rocker rm "remove the container"
 docker rmi -f ubuntu
+docker images
+docker push jyothisree2000/<image_name>
+if you want to built image with tag "commit it with tag"
+docker commit jyothisree2000/ubuntu1:v1
+####
+FROM ubuntu
+RUN apt-get update
+RUN apt-get -y install apache2
+ADD . /var/www/html
+ENTRYPOINT apachectl-D FOREGROUND
+ENV name Devops Intellipaat
