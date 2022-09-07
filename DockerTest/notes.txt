@@ -4,7 +4,7 @@ it means interactive d means backend
 docker run -d -p 8080:8080 docker-gs-ping (run docker-gs-ping in detach mode with running html)
 root@ip-172-31-88-139:/home/ubuntu/Devops# docker run -it -d df5de72bdb3b <it creates the docker"
 562c445e67a23dca75f97268bc33b8b583e4216c02837c5e2d81633b395e62e6
-docker exec -it "name of the container" bash < can be given name or id"
+docker exec -it "name of the container" bash < can be given name or id"> : to run the docker
 Not able to stop or kill the container, then  execute sudo aa-remove-unknown, then i was able to stop
 https://javahowtos.com/guides/124-docker/414-solved-cannot-kill-docker-container-permission-denied.html
 docker rmi "image_name"
