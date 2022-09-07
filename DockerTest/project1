@@ -1,0 +1,11 @@
+version: '3'
+services:
+  sample1:
+    image: 'httpd'
+    ports:
+      - "84:80"
+
+  sample2:
+    image: 'nginx'
+    ports:
+      - "82:80"
